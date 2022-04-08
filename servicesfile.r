@@ -58,7 +58,7 @@ NYservices$received<- ifelse(NYservices$silsv==1,1,NYservices$received)
 NYservices$received<- ifelse(NYservices$specedsv==1,1,NYservices$received)
 
 
-table(received)
+table(NYservices$received)
 # if (condition 1) {
 #   statement 1
 # } else if (statement 2) {
